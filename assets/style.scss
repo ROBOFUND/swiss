@@ -7,3 +7,8 @@
 @import
         "theme-{{ site.theme_color | default: "black" }}.scss"
 ;
+
+p {
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
